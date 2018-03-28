@@ -2,7 +2,7 @@ FROM openjdk:8u162-jdk
 
 MAINTAINER Carlos Sanchez <carlos@apache.org>
 
-ENV JENKINS_SWARM_VERSION 3.4
+ENV JENKINS_SWARM_VERSION 3.12
 ENV JENKINS_SWARM_DOWNLOAD_SITE https://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/swarm-client
 ENV JENKINS_HOME /home/jenkins-slave
 ENV JENKINS_USER jenkins-slave
